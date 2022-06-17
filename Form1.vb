@@ -1,4 +1,7 @@
-﻿Public Class Form1
+﻿Option Explicit On
+Option Strict On
+
+Public Class Form1
     Private Sub btnGetURL_Click(sender As Object, e As EventArgs) Handles btnGetURL.Click
         GetImageURL("test", 1234)
     End Sub
